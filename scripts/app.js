@@ -4,7 +4,7 @@ yike1.run(["$rootScope",function($rootScope){
      $rootScope.toggle = function(){
      	// alert("aaa");
      	$rootScope.collapsed=!$rootScope.collapsed;
-     	var dds = document.querySelectorAll(dd);
+     	var dds = document.querySelectorAll("dd");
         if($rootScope.collapsed){
 	     	for(var i=0;i<dds.length;i++){
 	     	    dds[i].style.transitionDuration = (i + 1) * 0.15 + 's';
